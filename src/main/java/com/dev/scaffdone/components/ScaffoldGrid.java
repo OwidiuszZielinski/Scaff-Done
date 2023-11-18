@@ -48,6 +48,7 @@ public class ScaffoldGrid extends VerticalLayout {
                 Notification.show("Please mark the items");
             }else {
                 //DOPISZ LOGIKE NA PRZEKIEROWANIE NA STRONE Z PDFEM
+                //Powiniene pojawic sie banner i ustawiasz za jaka usluge jaki vat i stawka
                 System.out.println(selectedItems);
             }
         });
